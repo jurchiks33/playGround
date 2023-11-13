@@ -1,4 +1,5 @@
-                    #Variables
+                                        #Variables
+
 # message = "Hello Python World"
 # print(message)
 
@@ -7,10 +8,30 @@
 
 # message = "I am an error message"
 # print(mesage)
-                    #Capital Letters
+
+                                        #Capital Letters
+
 # name = "ada lovelace"
 # print(name.title())
 
-name = "ada Lovelace"
-print(name.upper())
-print(name.lower())
+# name = "ada Lovelace"
+# print(name.upper())
+# print(name.lower())
+
+                                        #Variable in strings 20.   <<f>> is for format
+
+# first_name = "ada"
+# last_name = "lovelace"
+# full_name = f"{first_name} {last_name}"
+# print(full_name)
+
+# first_name = "ada"
+# last_name = "lovelace"
+# full_name = f"{first_name} {last_name}"
+# print(f"Hello {full_name.title()}")
+
+# first_name = "ada"
+# last_name = "lovelace"
+# full_name = f"{first_name} {last_name}"
+# message = f"Hello, {full_name.title()}"
+# print(message)
