@@ -99,9 +99,13 @@
 # motorcycles.remove('ducati')
 # print(motorcycles)
 
-motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
-print(motorcycles)
-too_expensive = 'ducati'
-motorcycles.remove(too_expensive)
-print(motorcycles)
-print(f"\nA {too_expensive.title()} is too expensive for me.")
+# motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+# print(motorcycles)
+# too_expensive = 'ducati'
+# motorcycles.remove(too_expensive)
+# print(motorcycles)
+# print(f"\nA {too_expensive.title()} is too expensive for me.")
+
+guest_list = ['misterA', 'misterB', 'misterC', 'misterD']
+print(guest_list)
+print(f"\n invite guest {guest_list[0]} \n invite guest {guest_list[1]} \n invite guest {guest_list[2]} \n invite guest {guest_list[-1]}")
