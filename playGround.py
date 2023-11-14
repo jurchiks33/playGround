@@ -57,3 +57,12 @@
 # bicycles = ['trek', 'cannodale', 'redline', 'specialized']
 # message = f"My first bicycle was a {bicycles[0].title()}. and after {bicycles[1].upper()}"
 # print(message)
+
+# motorcycles = ['honda', 'yamaha', 'suzuki']
+# print(motorcycles)
+
+# motorcycles[0] = 'ducati'
+# print(motorcycles)
+
+# motorcycles[-1] = 'stella'
+# print(motorcycles)
