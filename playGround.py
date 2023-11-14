@@ -35,3 +35,14 @@
 # full_name = f"{first_name} {last_name}"
 # message = f"Hello, {full_name.title()}"
 # print(message)
+
+                                        #Lists
+
+# bicicles = ['trek', 'cannondale', 'redline', 'specialized']
+# print(bicicles)
+
+# bicicles = ['trek', 'cannondale', 'redline', 'specialized']
+# print(bicicles[1])
+
+bicicles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicicles[1].title())
