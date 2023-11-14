@@ -66,3 +66,15 @@
 
 # motorcycles[-1] = 'stella'
 # print(motorcycles)
+
+# motorcycles = ['honda', 'yamaha', 'suzuku']
+# motorcycles.append('ducatti')
+# print(motorcycles)
+
+
+# motorcycles = []
+# motorcycles.append('honda')
+# motorcycles.append('yamaha')
+# motorcycles.append('suzuki')
+# motorcycles.append('ducatti')
+# print(motorcycles)
