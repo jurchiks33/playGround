@@ -38,11 +38,18 @@
 
                                         #Lists
 
-# bicicles = ['trek', 'cannondale', 'redline', 'specialized']
-# print(bicicles)
+# bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+# print(bicycles)
 
-# bicicles = ['trek', 'cannondale', 'redline', 'specialized']
-# print(bicicles[1])
+# bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+# print(bicycles[1])
 
-bicicles = ['trek', 'cannondale', 'redline', 'specialized']
-print(bicicles[1].title())
+# bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+# print(bicycles[1].title())
+
+# bicycles = ['trek', 'cannodale', 'redline', 'specialized']
+# print(bicycles[1])
+# print(bicycles[2])
+
+bicycles = ['trek', 'cannodale', 'redline', 'specialized']
+print(bicycles[-1])
