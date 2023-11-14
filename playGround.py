@@ -51,5 +51,9 @@
 # print(bicycles[1])
 # print(bicycles[2])
 
-bicycles = ['trek', 'cannodale', 'redline', 'specialized']
-print(bicycles[-1])
+# bicycles = ['trek', 'cannodale', 'redline', 'specialized']
+# print(bicycles[-1])
+
+# bicycles = ['trek', 'cannodale', 'redline', 'specialized']
+# message = f"My first bicycle was a {bicycles[0].title()}. and after {bicycles[1].upper()}"
+# print(message)
