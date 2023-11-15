@@ -106,6 +106,13 @@
 # print(motorcycles)
 # print(f"\nA {too_expensive.title()} is too expensive for me.")
 
-guest_list = ['misterA', 'misterB', 'misterC', 'misterD']
-print(guest_list)
-print(f"\n invite guest {guest_list[0]} \n invite guest {guest_list[1]} \n invite guest {guest_list[2]} \n invite guest {guest_list[-1]}")
+# guest_list = ['misterA', 'misterB', 'misterC', 'misterD']
+# print(guest_list)
+# print(f"\n invite guest {guest_list[0]} \n invite guest {guest_list[1]} \n invite guest {guest_list[2]} \n invite guest {guest_list[-1]}")
+
+# cars = ['bmw', 'audi', 'toyota', 'subaru']
+# print(cars)
+# cars.sort()
+# print(cars)
+# cars.sort(reverse=True)
+# print(cars)
