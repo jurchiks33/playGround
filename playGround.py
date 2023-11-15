@@ -132,3 +132,6 @@
 # print(cars)
 # cars.reverse()
 # print(cars)
+
+# cars = ['bmw', 'audi', 'toyota', 'subaru']
+# len(cars)
