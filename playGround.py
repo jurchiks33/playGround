@@ -117,6 +117,7 @@
 # cars.sort(reverse=True)
 # print(cars)
 
+                #With sorted() you can reverse to original list, but with reverse you cant, but you can just simply use reversed again since it is displaying in a reversed order.
 # cars = ['bmw', 'audi', 'toyota', 'subaru']
 # print("Here is the original list:")
 # print(cars)
@@ -125,3 +126,9 @@
 # print("\nHere is the original list again:")
 # print(cars)
 
+# cars = ['bmw', 'audi', 'toyota', 'subaru']
+# print(cars)
+# cars.reverse()
+# print(cars)
+# cars.reverse()
+# print(cars)
