@@ -135,3 +135,9 @@
 
 # cars = ['bmw', 'audi', 'toyota', 'subaru']
 # len(cars)
+
+                                                        #Work with lists
+
+# magicians = ['alice', 'david', 'carolina']
+# for magician in magicians:
+#     print(magician)
