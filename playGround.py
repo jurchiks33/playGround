@@ -1,4 +1,6 @@
-                                        #Variables
+ # PEP 8 guidelines for writing style at https://python.org/dev/peps/pep-0008.
+
+                                       #Variables
 
 # message = "Hello Python World"
 # print(message)
@@ -18,7 +20,7 @@
 # print(name.upper())
 # print(name.lower())
 
-                                        #Variable in strings 20.   <<f>> is for format
+                                #Variable in strings 20.   <<f>> is for format
 
 # first_name = "ada"
 # last_name = "lovelace"
@@ -117,7 +119,9 @@
 # cars.sort(reverse=True)
 # print(cars)
 
-                #With sorted() you can reverse to original list, but with reverse you cant, but you can just simply use reversed again since it is displaying in a reversed order.
+                #With sorted() you can reverse to original list, but with 
+                #reverse you cant, but you can just simply use reversed again
+                #since it is displaying in a reversed order.
 # cars = ['bmw', 'audi', 'toyota', 'subaru']
 # print("Here is the original list:")
 # print(cars)
@@ -233,12 +237,13 @@
 # for dimension in dimensions:
 #     print(dimension)
 
-dimensions = (200, 50)
-print("original dimensions:")
-for dimension in dimensions:
-    print(dimension)
+# dimensions = (200, 50)
+# print("original dimensions:")
+# for dimension in dimensions:
+#     print(dimension)
 
-dimensions = (400, 100)
-print("\nModified dimensions:")
-for dimension in dimensions:
-    print(dimension)
+# dimensions = (400, 100)
+# print("\nModified dimensions:")
+# for dimension in dimensions:
+#     print(dimension)
+
