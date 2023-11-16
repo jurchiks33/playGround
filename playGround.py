@@ -229,6 +229,16 @@
 # dimensions = (200, 50)   
 # dimensions[0] = 250   #typles () will  not change dimensions and it will print error
 
+# dimensions = (200, 50)
+# for dimension in dimensions:
+#     print(dimension)
+
 dimensions = (200, 50)
+print("original dimensions:")
+for dimension in dimensions:
+    print(dimension)
+
+dimensions = (400, 100)
+print("\nModified dimensions:")
 for dimension in dimensions:
     print(dimension)
