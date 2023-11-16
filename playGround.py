@@ -221,3 +221,7 @@
 
 # print("\nMy friends favorite foods are")
 # print(friends_foods)
+
+# dimensions = (200, 50)    typles () ensure that its size does not change compared to []
+# print(dimensions[0])
+# print(dimensions[1])
