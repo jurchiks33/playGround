@@ -180,5 +180,11 @@
 # max(digits)
 # sum(digits)
 
-squares = [value ** 2 for value in range (1, 11)]
-print(squares)
+# squares = [value ** 2 for value in range (1, 11)]
+# print(squares)
+
+# for value in range (1, 20):
+#     print(value)
+
+# for value in range(1, 1000000):
+#     print(value)        # CTRL + C to stop operation
