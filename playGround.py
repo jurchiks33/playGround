@@ -302,3 +302,15 @@
 # if user not in banned_users:
 #     print(f"{user.title()}, you can post a response if you wish")
 
+# if conditional_test:
+#     do something
+
+# age = 19
+# if age >= 18:
+#     print("You are old enought to vote!")
+
+# age = 19
+# if age >= 18:
+#     print("you are old enought to vote!")
+#     print("Have you registered to vote yet?")
+
