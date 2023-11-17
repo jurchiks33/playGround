@@ -254,3 +254,11 @@
 #     else:
 #         print(car.title())
 
+# car = 'bmw' # = sets a car as bmw
+# car == 'bmw' # == check if car is bmw
+# True
+
+# car = 'audi'
+# car == 'bmw'
+# False 
+
