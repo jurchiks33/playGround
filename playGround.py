@@ -262,3 +262,15 @@
 # car == 'bmw'
 # False 
 
+# car = 'Audi'
+# car == 'audi'
+# False
+
+# car = 'Audi'
+# car.lover() == 'audi'
+# True
+
+# requested_topping = 'mushrooms'
+# if requested_topping != 'anchovies':   # != inequality operator
+#     print("Hold the anchovies!")
+
