@@ -274,3 +274,19 @@
 # if requested_topping != 'anchovies':   # != inequality operator
 #     print("Hold the anchovies!")
 
+# answer = 17
+# if answer != 42:
+#     print("That is not correct answer. Please try again!")
+
+# age = 19
+# age < 21
+# True
+# age = 19
+# age <= 19
+# True
+# age = 19
+# age > 21
+# False
+# age = 19
+# age >= 21
+# False
