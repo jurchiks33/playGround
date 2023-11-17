@@ -290,3 +290,10 @@
 # age = 19
 # age >= 21
 # False
+
+# requested_toppings = ['mushrooms', 'onions', 'pinaple']
+# 'mushrooms' in requested_toppings
+# True
+# 'pepperoni' in requested_toppings
+# False
+
