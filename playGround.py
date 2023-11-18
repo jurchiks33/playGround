@@ -1,5 +1,8 @@
  # PEP 8 guidelines for writing style at https://python.org/dev/peps/pep-0008.
 
+# THIS FILE IS MADE OF FUNDAMENTAL PYTHON CONCEPTS. 
+# FOR A BIGGER PROJECTS IN A PLAYGROUND LOOK IN OTHER PY FILES
+
                                        #Variables
 
 # message = "Hello Python World"
@@ -350,4 +353,35 @@
 # else:
 #     price = 20
 # print(f"Your admission price is ${price}.")
+
+# age = 12
+# if age < 4:
+#     price = 0
+# elif age < 18:
+#     price = 25
+# elif age < 65:
+#     price = 40
+# elif age >= 65:
+#     price = 20
+# print(f"Your admission cost is ${price}.")
+
+# requested_toppings = ['mushrooms', 'extra_cheese']
+# if 'mushrooms' in requested_toppings:
+#     print("Adding mushrooms.")
+# if 'pepperoni' in requested_toppings:
+#     print("adding pepperoni.")
+# if 'extra_cheese' in requested_toppings:
+#     print("Adding extra cheese.")
+# print("\nFinished making your pizza!")
+
+#if we want to run more than one block, we use if statements, if
+#only one after test is passed, we use elif statements.
+
+# alien_color = ['orange']
+# if 'red' in alien_color:
+#     print("congratulations you got 5 points for red alien")
+# if 'yellow'in alien_color:
+#     print("Congratulations you got 10 points")
+# if 'orange' in alien_color:
+#     print("congratulations you got a rare alien and 20 points")
 
