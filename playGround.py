@@ -419,3 +419,13 @@
 #     else:
 #         print(f"Sorry, we dont have {requested_topping}.")
 # print("\nFinishing making your pizza!")
+
+
+                #DICTIONARIES
+
+
+# alien_0 = {'color': 'green', 'points': 5}
+
+# print(alien_0['color'])
+# print(alien_0['points'])
+
