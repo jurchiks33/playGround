@@ -385,3 +385,8 @@
 # if 'orange' in alien_color:
 #     print("congratulations you got a rare alien and 20 points")
 
+requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
+for requested_topping in requested_toppings:
+    print(f"adding {requested_topping}.")
+
+print("\nFinished making your pizza!")
