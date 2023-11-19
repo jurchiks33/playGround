@@ -522,3 +522,14 @@
 #     print(f"{name.title()}, thank you for taking the poll.")
 
 
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'C',
+#     'edward': 'rust',
+#     'phil': 'python',
+# }
+# print("The following languages have been mentioned:")
+# for language in favorite_languages.values():
+#     print(language.title())
+
+
