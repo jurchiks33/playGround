@@ -512,3 +512,13 @@
 #     print(f"{name.title()}'s favorite language is {language.title()}.")
 
 
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'C',
+#     'edward': 'rust',
+#     'phil': 'python',
+# }
+# for name  in sorted(favorite_languages.keys()):
+#     print(f"{name.title()}, thank you for taking the poll.")
+
+
