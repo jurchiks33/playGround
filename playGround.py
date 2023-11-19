@@ -477,3 +477,13 @@
 # print(alien_0)
 
 
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'C',
+#     'edward': 'rust',
+#     'phil': 'python',
+# }
+# language = favorite_languages['sarah'].title()
+# print(f"sarah's favorite language is {language}.")
+
+
