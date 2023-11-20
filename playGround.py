@@ -658,3 +658,11 @@
 #     print("\nYou will be able to ride when you are a little older")
 
 
+# number = input("Enter a number, and i will tell you if it is even or odd:")
+# number = int(number)
+# if number %2 == 0:
+#     print(f"\nThe number {number} is even.")
+# else:
+#     print(f"\nThe number {number} is odd.")
+
+
