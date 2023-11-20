@@ -647,3 +647,14 @@
 # print(f"\nHello, {name}")
 
 
+# for numbers we are using int() instead of input()
+
+
+# height = input("How tall are you, in cm?")
+# height = int(height)
+# if height >= 180:
+#     print("\n You are a tall enought to ride!")
+# else:
+#     print("\nYou will be able to ride when you are a little older")
+
+
