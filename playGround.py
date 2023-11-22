@@ -794,3 +794,10 @@
 # describe_pet(animal_type='hamester', pet_name='harry')
 
 
+# def describe_pet(pet_name, anymal_type='dog'):
+#     """Display information about a pet."""
+#     print(f"\nI have a {anymal_type}.")
+#     print(f"My {anymal_type}'s name is {pet_name.title()}.")
+# describe_pet(pet_name='willie')
+
+
