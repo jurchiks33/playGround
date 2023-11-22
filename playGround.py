@@ -757,3 +757,12 @@
 #         print(f"{name} would you like to climb {response}.")
 
 
+                        #---FUNCTIONS---
+
+
+# def greet_user():
+#     """"Display a simple greeting."""
+#     print("Hello!")
+# greet_user()
+
+
