@@ -1082,26 +1082,43 @@
 # my_dog.roll_over()
 
 
-class Dog:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# class Dog:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
     
-    def sit(self):
-        print(f"{self.name} is now sitting.")
+#     def sit(self):
+#         print(f"{self.name} is now sitting.")
     
-    def roll_over(self):
-        print(f"{self.name} rolled over!")
+#     def roll_over(self):
+#         print(f"{self.name} rolled over!")
 
-my_dog = Dog('Willie', 6)
-your_dog = Dog('Lucy', 3)
+# my_dog = Dog('Willie', 6)
+# your_dog = Dog('Lucy', 3)
 
-print(f"My dig's name is {my_dog.name}.")
-print(f"My dog is {my_dog.age} years old.")
-my_dog.sit()
+# print(f"My dig's name is {my_dog.name}.")
+# print(f"My dog is {my_dog.age} years old.")
+# my_dog.sit()
 
-print(f"Your dog's name is {your_dog.name}.")
-print(f"Your dog is {your_dog.age} years old.")
-your_dog.roll_over()
+# print(f"Your dog's name is {your_dog.name}.")
+# print(f"Your dog is {your_dog.age} years old.")
+# your_dog.roll_over()
+
+
+# class Car:
+#     """A simple attempt to represent a car."""
+#     def __init__(self, make, model, year):
+#         """Initialize attributes to describe a car."""
+#         self.make = make
+#         self.model = model
+#         self.year = year
+    
+#     def get_descriptive_name(self):
+#         """Return a neatly formatted descriptive name."""
+#         long_name = f"{self.year} {self.make} {self.model}"
+#         return long_name.title()
+    
+# my_new_car = Car('audi', 'a4', 2024)
+# print(my_new_car.get_descriptive_name())
 
 
