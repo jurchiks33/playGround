@@ -1003,3 +1003,10 @@
 #from module_name import function_0, function_1, function_2
 
 
+# from module_name import function_name as fn
+# # to give a module an Alias
+# import module_name as mn
+# #to import evry function in a module we use *
+# from pizza import *
+
+
