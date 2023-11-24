@@ -994,4 +994,12 @@
 # pizza.make_pizza(16, 'pepperoni')
 # pizza.make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
 
+#Each function in the module is available throught following syntax:
+#module_name.function_name()
+
+
+#General syntax for importing a function
+#from module_name import function_name
+#from module_name import function_0, function_1, function_2
+
 
