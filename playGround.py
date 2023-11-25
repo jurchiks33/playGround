@@ -1321,3 +1321,20 @@
 # my_leaf.describe_battery()
 
 
+# class ElectricCar(Car):
+#     """Represents aspect of a car, specific to electric vehicles."""
+#     def __init__(self, make, model, year):
+#         """Initialize attributes of the parent class.
+#         Then initialize attributes specific to an electric car."""
+#         super().__init__(make, model, year)
+#         self.battery_size = 40
+    
+#     def describe_battery(self):
+#         """Print a statement describing the battery size."""
+#         print(f"This car has a {self.battery_size}-kwh battery.")
+    
+#     def fill_gass_tank(self):
+#         """Electric cars dont have gas tanks."""
+#         print("This car doesnt have a gass tank")
+
+
