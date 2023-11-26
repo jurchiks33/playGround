@@ -1538,3 +1538,15 @@
 # print(my_leaf.get_descriptive_name())
 # my_leaf.battery.describe_battery()
 # my_leaf.battery.get_range()
+
+
+#Importing Multiple classes from a module
+
+# from car import Car, ElectricCar
+
+# my_mustang = Car('ford', 'mustang', 2024)
+# print(my_mustang.get_descriptive_name())
+# my_leaf = ElectricCar('nissan', 'model', 2024)
+# print(my_leaf.get_descriptive_name())
+
+
