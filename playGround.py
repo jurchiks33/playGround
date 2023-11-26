@@ -1550,3 +1550,13 @@
 # print(my_leaf.get_descriptive_name())
 
 
+#Import an Entire Module
+
+# import calendar
+
+# my_mustang = car.Car('ford', 'mustang', 2024)
+# print(my_mustang.get_descriptive_name())
+# my_leaf = car.ElectricCar('nissan', 'model', 2024)
+# print(my_leaf.get_descriptive_name())
+
+
