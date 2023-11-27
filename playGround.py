@@ -1562,3 +1562,16 @@
 
 #To import all classes from a module:
 # from module_name import *
+
+
+#Import multiple modules
+
+#from car import Car
+#From electric?car import ElectricCar
+
+# my_mustang = car.Car('ford', 'mustang', 2024)
+# print(my_mustang.get_descriptive_name())
+# my_leaf = car.ElectricCar('nissan', 'model', 2024)
+# print(my_leaf.get_descriptive_name())
+
+
