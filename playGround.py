@@ -1575,3 +1575,16 @@
 # print(my_leaf.get_descriptive_name())
 
 
+# #Using Aliases
+
+# from electric_car import ElectricCar as EC
+
+# my_leaf = EC('nissasn', 'leaf', 2024)
+
+# #For entire module we use
+
+# import electric_car as EC
+
+# my_leaf = ec.ElectricCar('nissan', 'leaf', 2024)
+
+
