@@ -19,17 +19,17 @@ class Ship:
         self.x = float(self.rect.x)
 
         #movement flag starting with ship that is not moving.
-        self.move_right = False
-        self.move_left = False
+        self.moving_right = False
+        self.moving_left = False
     
     def update(self):
         """Update the ships position based on the movement flag."""
         #Update ships x value not the rect
 
-        if self.move_right and self.rect.right < self.screen_rect.right:
+        if self.moving_right and self.rect.right < self.screen_rect.right:
             self.x += self.settings.ship_speed
-        
-        if self.move_left and self.rect.left > 0:
+
+        if self.moving_left and self.rect.left > 0:
             self.x -= self.settings.ship_speed
         
         #Update rect object from self.x
