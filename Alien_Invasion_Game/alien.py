@@ -13,4 +13,9 @@ class Alien(Sprite):
         self.image = pygame.image.load('Alien_Invasion_Game/Pictures/enemy.bmp')
         self.rect = self.image.get_rect()
 
-        
+        #Start each new alien near the top lef of the screen.
+        self.rect.x = self.rect.width
+        self.rect.y = self.rect.height
+
+        #Store the aliens exact horizontal position.
+        self.x = float(self.rect.x)
