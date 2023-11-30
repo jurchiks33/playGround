@@ -13,7 +13,7 @@ class AlienInvasion:
     """Overall class to manage game assets and behavior"""
 
     def __init__(self):
-        """Initialize game, and create gae resources."""
+        """Initialize game, and create game resources."""
         pygame.init()
         self.clock = pygame.time.Clock()
         self.settings = Settings()
@@ -38,13 +38,19 @@ class AlienInvasion:
         #Start Alien invasion in an active state.
         self.game_active = True
 
+        #Start Alien Invasion in an inactive state.
+        self.game_active = False
+
     def run_game(self):
         """Start the main loop for the game"""
         while True:
             self._check_events()
-            self.ship.update()
-            self._update_bullets()
-            self._update_aliens()
+
+            if self.game_active:
+                self.ship.update()
+                self._update_bullets()
+                self._update_aliens()
+
             self._update_screen()
             self.clock.tick(60)
     
