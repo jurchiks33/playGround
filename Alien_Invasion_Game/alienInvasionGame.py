@@ -5,6 +5,7 @@ import pygame
 
 from settings import Settings
 from game_stats import GameStats
+from button import Button
 from ship import Ship
 from bullet import Bullet
 from alien import Alien
@@ -40,6 +41,9 @@ class AlienInvasion:
 
         #Start Alien Invasion in an inactive state.
         self.game_active = False
+
+        #Make the Play button.
+        self.play_button = Button(self, "Play")
 
     def run_game(self):
         """Start the main loop for the game"""
@@ -190,13 +194,17 @@ class AlienInvasion:
             self.game_active = False
 
     def _update_screen(self):
-         """Update images on the screen, and flip to the new screen."""
-         self.screen.fill(self.settings.bg_color)
-         for bullet in self.bullets.sprites():
-             bullet.draw_bullet()
-         self.ship.blitme()
-         self.aliens.draw(self.screen)
+        """Update images on the screen, and flip to the new screen."""
+        self.screen.fill(self.settings.bg_color)
+        for bullet in self.bullets.sprites():
+            bullet.draw_bullet()
+        self.ship.blitme()
+        self.aliens.draw(self.screen)
 
+        #Draw the play button if the game is inactive.
+        if not self.game_active:
+         self.play_button.draw_button()
+        
          pygame.display.flip()
 
 if __name__ == '__main__':
