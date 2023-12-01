@@ -36,8 +36,8 @@ class AlienInvasion:
 
         self._create_fleet()
 
-        #Start Alien invasion in an active state.
-        self.game_active = True
+        # #Start Alien invasion in an active state.
+        # self.game_active = True
 
         #Start Alien Invasion in an inactive state.
         self.game_active = False
@@ -129,7 +129,7 @@ class AlienInvasion:
     def _check_bullet_alien_collisions(self):
         """Check for any bullets that have hit aliens."""
         #If so, get rid of the bullet and the alien.
-        collision = pygame.sprite.groupcollide(
+        collisions = pygame.sprite.groupcollide(
             self.bullets, self.aliens, True, True)
         
         if not self.aliens:
@@ -206,7 +206,7 @@ class AlienInvasion:
             self.aliens.empty()
 
             #create a new fleet and center the ship.
-            self. _create_fleet()
+            self._create_fleet()
             self.ship.center_ship()
 
             #Pause
@@ -214,6 +214,7 @@ class AlienInvasion:
 
         else:
             self.game_active = False
+
             pygame.mouse.set_visible(True)
 
     def _update_screen(self):
