@@ -1,4 +1,7 @@
 import pygame.font
+from pygame.sprite import Group
+
+from ship import Ship
 
 class Scoreboard:
     """A class to report scoring information."""
@@ -35,6 +38,7 @@ class Scoreboard:
         """Draw score to the screen."""
         self.screen.blit(self.score_image, self.score_rect)
         self.screen.blit(self.high_score_image, self.high_score_rect)
+        self.screen.blit(self.level_image, self.level_rect)
     
     def check_high_score(self):
         """Check to see if there is a new high score."""
