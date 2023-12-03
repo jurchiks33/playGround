@@ -17,6 +17,7 @@ class Scoreboard:
         #Prepare initial score image.
         self.prep_score()
         self.prep_high_score()
+        self.prep_level()
 
     def prep_score(self):
         """Turn the score into rendered image."""
@@ -51,3 +52,9 @@ class Scoreboard:
         self.high_score_rect = self.high_score_image.get_rect()
         self.high_score_rect.centerx = self.screen_rect.centerx
         self.high_score_rect.top = self.score_rect.top
+
+    def prep_level(self):
+        """Turn the level into a rendered image."""
+        level_str = str(self.stats.level)
+        self.level_image = self.font.render(level_str, True, 
+                    self.text_color, self.settings.bg_color)
