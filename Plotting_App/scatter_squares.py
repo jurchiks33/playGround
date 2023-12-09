@@ -62,20 +62,38 @@ import matplotlib.pyplot as plt
 
 
 
-x_values = range(1, 1001)
-y_values = [x**2 for x in x_values]
+# x_values = range(1, 1001)
+# y_values = [x**2 for x in x_values]
 
-plt.style.use('seaborn-v0_8')
-fig, ax = plt.subplots()
-ax.scatter(x_values, y_values, color=(0, 0.8, 0), s=10)
+# plt.style.use('seaborn-v0_8')
+# fig, ax = plt.subplots()
+# ax.scatter(x_values, y_values, color=(0, 0.8, 0), s=10)
 
-# Setting the size of tick labels
-ax.axis([0, 1100, 0, 1_100_000])
+# # Setting the size of tick labels
+# ax.axis([0, 1100, 0, 1_100_000])
 
-# Showing the plot
-plt.show()
+# # Showing the plot
+# plt.show()
 
-# Saving the plot to a file
-fig.savefig('scatter_plot.png')
+# # Saving the plot to a file
+# fig.savefig('scatter_plot.png')
+
+
+
+# x_values = range(1, 1001)
+# y_values = [x**2 for x in x_values]
+
+# plt.style.use('seaborn-v0_8')
+# fig, ax = plt.subplots()
+# ax.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Blues, s=10)
+
+# # Setting the size of tick labels
+# ax.axis([0, 1100, 0, 1_100_000])
+
+# # Showing the plot
+# plt.show()
+
+# # Saving the plot to a file
+# fig.savefig('scatter_plot.png')
 
 
