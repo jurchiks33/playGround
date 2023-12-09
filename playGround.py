@@ -1588,3 +1588,9 @@
 # my_leaf = ec.ElectricCar('nissan', 'leaf', 2024)
 
 
+# from pathlib import Path
+# path = Path('numbers.txt')
+# contents = path.read_text()
+# print(contents)
+
+
