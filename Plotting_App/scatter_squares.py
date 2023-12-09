@@ -31,3 +31,13 @@ y_values = [1, 4, 9, 16, 25]
 
 plt.style.use('seaborn-v0_8')
 fig, ax = plt.subplots()
+ax.scatter(x_values, y_values, s=100)
+
+# Setting the size of tick labels
+ax.tick_params(axis='both', which='major', labelsize=14)
+
+# Showing the plot
+plt.show()
+
+# Saving the plot to a file
+fig.savefig('scatter_plot.png')
