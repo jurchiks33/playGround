@@ -1594,3 +1594,11 @@
 # print(contents)
 
 
+
+# from pathlib import Path
+# path = Path('numbers.txt')
+# contents = path.read_text()
+# contents = contents.rstrip()
+# print(contents)
+
+
