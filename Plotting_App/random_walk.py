@@ -26,7 +26,7 @@ class RabdomWalk:
             y_step = y_direction * y_distance
 
             #Reject moves to go nowhere.
-            if x_step == 0 and y_step == 0:
+            if x_step == 0 and y_step == 0: 
                 continue
 
             #Calculate the new position.
