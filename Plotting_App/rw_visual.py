@@ -1,16 +1,18 @@
 import matplotlib.pyplot as plt
-from random_walk import RabdomWalk
+from random_walk import RandomWalk 
 
-#Making loop for a new walks whn programm is active.
+# Making a loop for new walks while the program is active.
 while True:
-    #Making a random walk.
-    rw = RabdomWalk()
+    # Making a random walk.
+    rw = RandomWalk()
     rw.fill_walk()
 
-    #Plot the points in the walk.
+    # Plot the points in the walk.
     plt.style.use('classic')
     fig, ax = plt.subplots()
-    ax.scatter(rw.x_values, rw.y_values, s=15)
+    point_numbers = range(rw.num_points)
+    ax.scatter(rw.x_values, rw.y_values, c=point_numbers, cmap=plt.cm.Blues,
+               edgecolors='none', s=15)
     ax.set_aspect('equal')
     plt.show()
 
