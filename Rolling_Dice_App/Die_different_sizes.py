@@ -26,6 +26,6 @@ fig = px.bar(x=poss_results, y=frequencies, title=title, labels=labels)
 
 #Chart customization.
 fig.update_layout(xaxis_dtick=1)
-fig.show()
+fig.write_html('dice_visual_d6d10.html')
 
 print(results)
