@@ -1,12 +1,14 @@
 import plotly.express as px
 from die import Die
 
-#Create D6.
-die = Die()
+#Create two  D6 dice.
+die_1 = Die()
+die_2 = Die()
+
 #Make rolls and store results in a list.
 results = []
 for roll_num in range(1000):
-    result = die.roll()
+    result = die_1.roll() + die_2.roll()
     results.append(result)
 
 #Analyze results.
