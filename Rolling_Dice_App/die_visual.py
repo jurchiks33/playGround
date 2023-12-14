@@ -17,7 +17,9 @@ for value in poss_results:
     frequencies.append(frequency)
 
 #Visualize results.
-fig = px.bar(x=poss_results, y=frequencies)
+title = "Results of rolling one D6 1000 times"
+labels = {'x', 'Result', 'y', 'Frequency of Result'}
+fig = px.bar(x=poss_results, y=frequencies, title=title, labels=labels)
 fig.show()
 
 print(results)
